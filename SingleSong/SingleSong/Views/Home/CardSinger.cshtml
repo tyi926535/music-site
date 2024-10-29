@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "CardSinger";
+}
+
+<div id="singerC" class="singerC" style="margin-left: 15%; width: 80%;">
+    <img class="img-sing" style="margin-left: 10%;float:left;height:180px;margin-top: 40px;" src="~/img/2.png" id="123">
+    <table id="singC2" style="margin-left: 30px; width: 50%;float:left; margin-bottom:80px;margin-top: 80px;">
+
+        <tr>
+            <td>Имя</td>
+            <td class="nameS">Майкл Каминский</td>
+        </tr>
+        <tr>
+            <td>Национальность</td>
+            <td class="nationalityS">Англичанин</td>
+        </tr>
+        <tr>
+            <td>Год рождения</td>
+            <td class="yearS">2000</td>
+        </tr>
+        <tr>
+            <td>Пол</td>
+            <td class="genderS">Мужской</td>
+        </tr>
+
+    </table>
+    <ul id="list" style="margin-top: 40px;">
+        <li id="sing" class="sing">
+            <a asp-area="" asp-controller="Home" asp-action="CardSong">
+                <img class="img-sing" src="~/img/2.png" id="123">
+                <h5 class="name-sing" id="11111123">Название песни</h5>
+                <h4 class="quantity-sing" id="11111123">2:34</h4>
+            </a>
+        </li>
+        <li id="sing" class="sing">
+            <a asp-area="" asp-controller="Home" asp-action="CardSong">
+                <img class="img-sing" src="~/img/2.png" id="123">
+                <h5 class="name-sing" id="11111123">Название песни</h5>
+                <h4 class="quantity-sing" id="11111123">2:34</h4>
+            </a>
+        </li>
+
+    </ul>
+
+    </div>
+

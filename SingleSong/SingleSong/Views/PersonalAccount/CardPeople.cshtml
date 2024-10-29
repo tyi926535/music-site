@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "CardPeople";
+}
+
+<div id="singerC" class="singerC" style="margin-left: 15%; width: 80%;">
+    <img class="img-sing" style="margin-left: 10%;float:left;height:180px;margin-top: 40px;" src="~/img/2.png" id="123">
+    <table id="singC2" style="margin-left: 30px; width: 50%;float:left; margin-bottom:80px;margin-top: 80px;">
+
+        <tr>
+            <td>Имя</td>
+            <td class="nameP">Майкл Каминский</td>
+        </tr>
+        <tr>
+            <td>Почта</td>
+            <td class="mailP">jhbhb@mail.ru</td>
+        </tr>
+        <tr>
+            <td>Пароль</td>
+            <td class="oldPasswordP"><input name="s" placeholder="Введите старый пароль..." type="search"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="newPasswordP"><input name="s" placeholder="Введите новый пароль..." type="search"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="saveP">
+                <a asp-area="" asp-controller="Home" asp-action="Privacy" style="text-decoration: none;color: #ffffff;">
+                    <button style="width: 100px; height: 45px;border-radius: 60px;background: #ffffff;color: #000000;margin-top: 10px;">Сохранить </button>
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="exitP">
+                <a asp-area="" asp-controller="Home" asp-action="Privacy" style="text-decoration: none;color: #ffffff;">
+                    <button style="width: 100px; height: 40px;border-radius: 60px;background: #ffffff;color: #b00000;margin-top: 10px;">Выйти</button>
+                </a>
+            </td>
+        </tr>
+
+    </table>
+</div>
+

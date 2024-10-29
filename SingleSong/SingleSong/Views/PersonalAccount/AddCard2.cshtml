@@ -1,0 +1,85 @@
+﻿@model SingleSong.Data.BD2
+@{
+    ViewData["Title"] = "AddCard2";
+}
+
+<div id="addCard">
+    <h2 style="margin-left: 6%;">Добавить певца</h2>
+    <form id="form1" asp-controller="PersonalAccount" asp-action="AddFileCard2" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>Имя</td>
+            <td>
+                    <input asp-for="Name" name="NameP" />
+            </td>           
+        </tr>
+        <tr>
+            <td style="width:30%;">Страна</td>
+            <td>
+                    <select required form="form1" asp-for="Nationality" name="NationalityP">
+                    <option value="Великобритания">Великобритания</option>
+                    <option value="Россия">Россия</option>
+                    <option value="Канада">Канада</option>
+                    <option value="США">США</option>
+                    <option value="Китай">Китай</option>
+                    <option value="Бразилия">Бразилия</option>
+                    <option value="Австралия">Австралия</option>
+                    <option value="Индия">Индия</option>
+                    <option value="Мексика">Мексика</option>
+                    <option value="Индонезия">Индонезия</option>
+                    <option value="Италия">Италия</option>
+                    <option value="Колумбия">Колумбия</option>
+                    <option value="Египет">Египет</option>
+                    <option value="Республика Корея">Республика Корея</option>
+                    <option value="Япония">Япония</option>
+                    <option value="Франция">Франция</option>
+                    <option value="Другой">Другой</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Год</td>
+            <td>
+                    <select id="year" form="form1" asp-for="Year" name="YearP">
+                    <option value="">1969</option>
+                    <script>
+                        let y = 1969
+                        while (y < 2025) {
+                            y++
+                            document.getElementById('year').innerHTML += '<option>' + y + '</option>'
+                        }
+                    </script>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Пол</td>
+            <td>
+                    <select required form="form1" asp-for="Gender" name="GenderP">
+                    <option value="Мужской">Мужской</option>
+                    <option value="Женский">Женский</option>
+                </select>
+            </td>
+        </tr>
+        <tr> 
+            <td>Фото</td>
+            <td>
+                <p>
+                  <input type="file" name="files" multiple accept="image/jpg">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <input type="submit" value="Сохранить" style="margin-left: 50%;margin-top: 20px;float: left;width: 150px; height: 35px;border-radius: 60px;background: #ffffff;color: #000000;" />
+                
+            </td>
+            <td></td>
+        </tr>
+        </table>
+    </form>
+
+   
+
+</div>
+

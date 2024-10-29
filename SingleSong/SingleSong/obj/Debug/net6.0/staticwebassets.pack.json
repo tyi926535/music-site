@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SingleSong.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SingleSong.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\05af9968-6825-4ea5-845b-e4ce0b71f0cd.jpg",
+      "PackagePath": "staticwebassets\\img\\05af9968-6825-4ea5-845b-e4ce0b71f0cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\27325929-7a19-4ea5-84cf-e40d7c8c24af.jpg",
+      "PackagePath": "staticwebassets\\img\\27325929-7a19-4ea5-84cf-e40d7c8c24af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\cd0c6289-c730-440b-9712-f95660cd8b60.jpg",
+      "PackagePath": "staticwebassets\\img\\cd0c6289-c730-440b-9712-f95660cd8b60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\download.png",
+      "PackagePath": "staticwebassets\\img\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\f053c846-2217-4278-91f3-13c657b2c89a.jpg",
+      "PackagePath": "staticwebassets\\img\\f053c846-2217-4278-91f3-13c657b2c89a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\f0afc43d-390a-478d-8a50-df5d9ccd93e4.jpg",
+      "PackagePath": "staticwebassets\\img\\f0afc43d-390a-478d-8a50-df5d9ccd93e4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\pause.png",
+      "PackagePath": "staticwebassets\\img\\pause.png"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\img\\start.png",
+      "PackagePath": "staticwebassets\\img\\start.png"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\07929f21-0f29-4e93-b0d2-e6abc057a585.mp3",
+      "PackagePath": "staticwebassets\\mp3\\07929f21-0f29-4e93-b0d2-e6abc057a585.mp3"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\123.mp3",
+      "PackagePath": "staticwebassets\\mp3\\123.mp3"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\bcbe5f08-8a44-4283-8970-1d1ca0771643.mp3",
+      "PackagePath": "staticwebassets\\mp3\\bcbe5f08-8a44-4283-8970-1d1ca0771643.mp3"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\c763036d-10a5-488b-972e-690764f53be7.mp3",
+      "PackagePath": "staticwebassets\\mp3\\c763036d-10a5-488b-972e-690764f53be7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\cd891683-5ad1-4f38-b39e-7b9f1701dc25.mp3",
+      "PackagePath": "staticwebassets\\mp3\\cd891683-5ad1-4f38-b39e-7b9f1701dc25.mp3"
+    },
+    {
+      "Id": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\mp3\\d5dfac2c-1e2a-4136-bee0-9ab594399d66.mp3",
+      "PackagePath": "staticwebassets\\mp3\\d5dfac2c-1e2a-4136-bee0-9ab594399d66.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SingleSong.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SingleSong.props",
+      "PackagePath": "build\\SingleSong.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SingleSong.props",
+      "PackagePath": "buildMultiTargeting\\SingleSong.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SingleSong.props",
+      "PackagePath": "buildTransitive\\SingleSong.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

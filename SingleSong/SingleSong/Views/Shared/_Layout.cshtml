@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head> 
+
+<body>
+    <header>
+    <table id="verh">
+        <td style="">
+            <a asp-area="" asp-controller="Home" asp-action="Index"><h1>Single Song</h1></a>
+            </td>
+            <td style="">
+                <form action="" method="get">
+                    <input name="s" placeholder="Искать здесь..." type="search">
+                    <button type="submit" style="top: 2%; position: fixed;border-radius: 0 60px 60px 0;">
+                        <a asp-area="" asp-controller="Home" asp-action="Privacy">Поиск</a>
+                    </button>
+                </form>
+            </td>
+        
+        <td id="form" style="top: 2%;right: 2%; position: fixed;">
+            <button /><a asp-area="" asp-controller="Home" asp-action="Privacy">Войти</a></button>
+        </td>
+    </table>
+    </header>
+    
+    <div id="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

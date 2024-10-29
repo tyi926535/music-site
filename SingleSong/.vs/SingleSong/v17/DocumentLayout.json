@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\controllers\\personalaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\controllers\\personalaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\views\\personalaccount\\addcard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\views\\personalaccount\\addcard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\controllers\\formbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\controllers\\formbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\data\\bd2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\data\\bd2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|c:\\users\\nasty\\desktop\\progect\\asp.net core\\singlesong\\singlesong\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{967C420D-97B8-44DD-AE8B-0590A8E1FD82}|SingleSong\\SingleSong.csproj|solutionrelative:singlesong\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormBD.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\FormBD.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Controllers\\FormBD.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\FormBD.cs",
+              "RelativeToolTip": "SingleSong\\Controllers\\FormBD.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:42:01.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonalAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\PersonalAccountController.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Controllers\\PersonalAccountController.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\PersonalAccountController.cs",
+              "RelativeToolTip": "SingleSong\\Controllers\\PersonalAccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:12:44.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SingleSong\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:46:14.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCard1.cshtml",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Views\\PersonalAccount\\AddCard1.cshtml",
+              "RelativeDocumentMoniker": "SingleSong\\Views\\PersonalAccount\\AddCard1.cshtml",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Views\\PersonalAccount\\AddCard1.cshtml",
+              "RelativeToolTip": "SingleSong\\Views\\PersonalAccount\\AddCard1.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:08:11.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BD2.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Data\\BD2.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Data\\BD2.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Data\\BD2.cs",
+              "RelativeToolTip": "SingleSong\\Data\\BD2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T22:02:23.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Program.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Program.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Program.cs",
+              "RelativeToolTip": "SingleSong\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:57:50.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SingleSong\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SingleSong\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:22:14.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SingleSong\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SingleSong\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T13:07:24.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SingleSong\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SingleSong\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-22T20:29:19.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

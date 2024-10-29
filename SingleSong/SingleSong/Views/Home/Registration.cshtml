@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div id="registration" class="registration" style="width: 50%;margin-top: 150px;margin-left: 27%;">
+    <h2 style="text-align:center;margin-bottom: 40px;">Регистрация</h2>
+    <form id="formR" asp-controller="PersonalAccount" asp-action="AddFileRegis" method="post" enctype="multipart/form-data">
+    <input name="nameT" placeholder="Никнейм..." type="text" style="margin-left: 15%;width: 50%;height: 30px;border: none;resize: none;font-size: 1.2em; background: #fff;color: #000000;font-family: 'Times New Roman';padding: 10px;padding-left: 10px;border-radius: 10px 10px 10px 10px;">
+    <br>
+    <input name="emailT" placeholder="Email..." type="email" style="margin-left: 15%;width: 50%;height: 30px;margin-top: 20px;border: none;resize: none;font-size: 1.2em; background: #fff;color: #000000;font-family: 'Times New Roman';padding: 10px;padding-left: 10px;border-radius: 10px 10px 10px 10px;">
+    <br>
+    <input name="passwordT" placeholder="Пароль..." type="password" style="margin-left: 15%;width: 50%;height: 30px;margin-top: 20px;margin-bottom: 20px;border: none;resize: none;font-size: 1.2em; background: #fff;color: #000000;font-family: 'Times New Roman';padding: 10px;padding-left: 10px;border-radius: 10px 10px 10px 10px;">
+    <br>
+        <p>
+            <input type="file" name="fileImg" multiple accept="image/jpg">
+        </p>
+        <br />
+        <input type="submit" value="Зарегистрироваться" style="margin-left: 50%;margin-top: 20px;float: left;width: 150px; height: 35px;border-radius: 60px;background: #ffffff;color: #000000;" />
+
+    </form>
+
+
+
+</div>
+

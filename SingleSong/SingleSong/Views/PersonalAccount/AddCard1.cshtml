@@ -1,0 +1,104 @@
+﻿@model SingleSong.Data.BD1
+
+@{
+    ViewData["Title"] = "AddCard1";
+}
+<div id="addCard">
+    <h2 style="margin-left: 6%;">Добавить песню</h2>
+    <form id="form1" asp-controller="PersonalAccount" asp-action="AddFileCard1" method="post" enctype="multipart/form-data">
+        <table>
+                <tr>
+                    <td>Название</td>
+                    <td>
+                    <input asp-for="Name" name="NameP" />
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td >Исполнитель</td>
+                    <td>
+                    <input asp-for="IDSinger" name="IDSingerP" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:30%;" >Язык</td>
+                    <td>
+                    <select required form="form1" asp-for="Language" name="LanguageP">
+                      <option value="Английский">Английский</option>
+                      <option value="Арабский">Арабский</option>
+                      <option value="Вьетнамский">Вьетнамский</option>
+                      <option value="Испанский">Испанский</option>
+                      <option value="Итальянский">Итальянский</option>
+                      <option value="Китайский">Китайский</option>
+                      <option value="Корейский">Корейский</option>
+                      <option value="Немецкий">Немецкий</option>
+                      <option value="Русский">Русский</option>
+                      <option value="Французский">Французский</option>
+                      <option value="Хинди">Хинди</option>
+                      <option value="Японский">Японский</option>
+                      <option value="Другой">Другой</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Год</td>
+                    <td>
+                    <select id="year" form="form1" asp-for="Year" name="YearP">
+                        <option value="" >1969</option>
+                        <script>
+                            let y = 1969
+                            while (y < 2025) {
+                                y++
+                                document.getElementById('year').innerHTML += '<option>' + y + '</option>'
+                            }
+                         </script>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Жанр</td>
+                    <td>
+                    <select required form="form1" asp-for="Genre" name="GenreP">
+                          <option value="Кантри">Кантри</option>
+                          <option value="Блюз">Блюз</option>
+                          <option value="Джаз">Джаз</option>
+                          <option value="Поп">Поп</option>
+                          <option value="Хип-хоп">Хип-хоп</option>
+                          <option value="Рок">Рок</option>
+                          <option value="R&B">R&B</option>
+                          <option value="Классическая">Классическая</option>
+                          <option value="Хаус">Хаус</option>
+                          <option value="Балада">Балада</option>
+                          <option value="Другой">Другой</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                <td>Картинка альбома</td>
+                <td>
+                    <p>
+                        <input type="file" name="fileImg" multiple accept="image/jpg">
+                    </p>
+                </td>
+                </tr>
+                <td>Песня</td>
+                <td>
+                    <p>
+                    <input type="file" name="fileMp3" multiple accept=".mp3">
+                    </p>
+                </td>
+                </tr>
+
+                <tr>
+                <td>
+                    <input type="submit" value="Сохранить" style="margin-left: 50%;margin-top: 20px;float: left;width: 150px; height: 35px;border-radius: 60px;background: #ffffff;color: #000000;" />
+
+                </td>
+                    <td></td>
+                </tr>
+        
+        </table>
+    </form>
+
+    
+</div>
