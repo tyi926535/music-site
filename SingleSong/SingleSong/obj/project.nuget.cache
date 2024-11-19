@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oanqYyPLJN0RwQbYnKrpFGfCpA9NKfH36e1TnmuyW0IAQzsl03HfbuDYHN+gOBR4SgCWV/KG7sEpUFeir/ASog==",
+  "dgSpecHash": "WYYxJbYHqfJ1dWeSAhlyK5tR5e56BBbdlhVZTjKLwc9yk0I7yQyH4bG+KipGurCvGW+7UnqxhQRYfr8glD/ZaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\SingleSong.csproj",
+  "projectFilePath": "C:\\Users\\nasty\\Documents\\GitHub\\music-site\\SingleSong\\SingleSong\\SingleSong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nasty\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nasty\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

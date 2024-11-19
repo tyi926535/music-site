@@ -9188,11 +9188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\SingleSong.csproj",
+      "projectUniqueName": "C:\\Users\\nasty\\Documents\\GitHub\\music-site\\SingleSong\\SingleSong\\SingleSong.csproj",
       "projectName": "SingleSong",
-      "projectPath": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\SingleSong.csproj",
+      "projectPath": "C:\\Users\\nasty\\Documents\\GitHub\\music-site\\SingleSong\\SingleSong\\SingleSong.csproj",
       "packagesPath": "C:\\Users\\nasty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nasty\\Desktop\\progect\\asp.net core\\SingleSong\\SingleSong\\obj\\",
+      "outputPath": "C:\\Users\\nasty\\Documents\\GitHub\\music-site\\SingleSong\\SingleSong\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
