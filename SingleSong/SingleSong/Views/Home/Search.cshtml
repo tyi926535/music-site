@@ -1,27 +1,25 @@
 ﻿
 @{
-    ViewData["Title"] = "Search";
+    ViewBag.Title = "Search";
 }
 <div id="text-center">
     <div id="container" style="display: grid;">
-        <h5 style="margin-left: 20%;white-space:nowrap;font-style:italic;">Обнаружено 5 результатов по запросу "Поиск"</h5>
-        
+        @{int number= ViewBag.ArraySD.Count;
+        <h5 style="margin-left: 20%;white-space:nowrap;font-style:italic;">Обнаружено @number результатов по запросу "@ViewBag.Word"</h5>
+        }
     </div>
 <ul id="list" style="margin-top: 40px;">
-    <li id="sing" class="sing">
-        <a asp-area="" asp-controller="Home" asp-action="CardSong">
-            <img class="img-sing" src="~/img/2.png" id="123">
-            <h5 class="name-sing" id="11111123">Название песни</h5>
-            <h4 class="quantity-sing" id="11111123">2:34</h4>
-        </a>
-    </li>
-    <li id="sing" class="sing">
-        <a asp-area="" asp-controller="Home" asp-action="CardSong">
-            <img class="img-sing" src="~/img/2.png" id="123">
-            <h5 class="name-sing" id="11111123">Название песни</h5>
-            <h4 class="quantity-sing" id="11111123">2:34</h4>
-        </a>
-    </li>
+        @foreach (var a in ViewBag.ArraySD)
+        {
+            <li id="song" class="song">
+                <a asp-area="" asp-controller="Home" asp-action="CardSong">
+                    <img class="img-sing" src="~/img/@a.Img" id="123">
+                    <h5 class="name-sing" id="11111123">@a.Name</h5>
+                    <h4 class="quantity-sing" id="11111123">@a.Singer</h4>
+                </a>
+            </li>
+        }
+    
 
 </ul>
 </div>

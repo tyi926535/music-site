@@ -104,15 +104,21 @@ body {
         background: #f5dfdf;
         border-radius: 20px;
         height: 90px;
+        overflow: hidden;
     }
     #list h5 {
+        font-size: 1.5em;
         margin-left: 20px;
         margin-top: 30px;
-        width: 60%;
+        width: 35%;
         float: left;
+        white-space: nowrap; /* Текст не переносится */
+        overflow: hidden; /* Обрезаем всё за пределами блока */
+        text-overflow: ellipsis;
     }
     #list h4 {
-        margin-right: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
         font-style: normal;
         margin-top: 30px;
         font-weight: lighter;
@@ -120,6 +126,10 @@ body {
         font-size: 1.5em;
         color: #808080;
         float: right;
+        width: 30%;
+        white-space: nowrap; /* Текст не переносится */
+        overflow: hidden; /* Обрезаем всё за пределами блока */
+        text-overflow: ellipsis;
     }
     #list img {
         margin-top: 10px;
@@ -162,6 +172,22 @@ body {
     width: 70%;
     float: left;
     margin-bottom: 30px;
+}
+
+#personaCard a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#personaCard button {
+    width: 160px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    background: #b00000;
+    color: #ffffff;
+    font-family: 'comic sans ms';
+    font-size: 1.1em;
 }
 
 

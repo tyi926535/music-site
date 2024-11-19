@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
@@ -7,6 +8,8 @@ using SingleSong.Data;
 using System.Runtime.Intrinsics.X86;
 using NuGet.Protocol.Plugins;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.CodeAnalysis.Diagnostics;
+
 
 namespace SingleSong.Controllers
 {
@@ -18,37 +21,28 @@ namespace SingleSong.Controllers
         {
             return View();
         }
+        
 
-        public IActionResult AddCard1()
+        protected readonly IConfiguration Configuration;
+        public PersonalAccountController(IConfiguration configuration)
         {
-            return View();
-        }
-        public IActionResult AddCard2()
-        {
-            return View();
+            Configuration = configuration;
         }
 
 
-
-
-
-        private readonly AppDbContext _dbContext;
-        public PersonalAccountController(AppDbContext dbContext)
+        private string GeneratorGuid(string extension)
         {
-            _dbContext = dbContext;
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AddFileCard2(IFormFile files, string NameP, string NationalityP, string YearP, string GenderP)
-        {
-
             Guid guid = Guid.NewGuid();
             string str = guid.ToString();
-            string nameFile = str + ".jpg";
+            string nameFile = str + extension;
+            return nameFile;
+        }
+        private void AddFile(IFormFile files,string path,string nameFile)
+        {
             if (files != null && files.Length > 0)
             {
 
-                string uploadsFolder = Path.Combine("wwwroot", "img");
+                string uploadsFolder = Path.Combine("wwwroot", path);
 
                 string uniqueFileName = Path.Combine(uploadsFolder, nameFile);
 
@@ -57,57 +51,105 @@ namespace SingleSong.Controllers
                     files.CopyTo(fileStream);
                 }
             }
-
-
-            return RedirectToAction("CardPeople");
         }
 
 
-        public async Task<IActionResult> AddFileCard1(IFormFile fileImg, IFormFile fileMp3, string NameP, string IDSingerP, string LanguageP, string YearP, string GenreP)
+
+        [HttpGet]
+        public IActionResult AddCard2() => View();
+        [HttpPost]
+        public async Task<IActionResult> AddCard2(IFormFile files, BD2 model)
         {
-            Guid guid1 = Guid.NewGuid();
-            string str = guid1.ToString();
-            string nameFileJpg = str + ".jpg";
-            Guid guid2 = Guid.NewGuid();
-            str = guid2.ToString();
-            string nameFileMp3 = str + ".mp3";
-            int idCard = Environment.TickCount;
-            if (fileImg != null && fileImg.Length > 0)
+            if (ModelState.IsValid)
             {
-
-                string uploadsFolder = Path.Combine("wwwroot", "img");
-
-                string uniqueFileName = Path.Combine(uploadsFolder, nameFileJpg);
-
-                using (var fileStream = new FileStream(uniqueFileName, FileMode.Create))
+                string nameFile = GeneratorGuid(".jpg");
+                AddFile(files, "img", nameFile);
+                int idCard = Environment.TickCount;
+                BD2 bd2 = new BD2
                 {
-                    fileImg.CopyTo(fileStream);
-                }
+                    ID = idCard,
+                    Name = model.Name,
+                    Nationality = model.Nationality,
+                    Year = model.Year,
+                    Gender = model.Gender,
+                    Img = nameFile,
+
+                };
+
+                AppDbContext appDB = new AppDbContext(Configuration);
+                appDB.SingerBD2.Add(bd2);
+                appDB.SaveChanges();
+                return RedirectToAction("CardPeople");
+
             }
-            if (fileMp3 != null && fileMp3.Length > 0)
-            {
-
-                string uploadsFolder = Path.Combine("wwwroot", "mp3");
-
-                string uniqueFileName = Path.Combine(uploadsFolder, nameFileMp3);
-
-                using (var fileStream = new FileStream(uniqueFileName, FileMode.Create))
-                {
-                    fileMp3.CopyTo(fileStream);
-                }
-            }
-
-            BD1 bd1 = new BD1 { ID = idCard, Name = NameP, Language = LanguageP, Year = int.Parse(YearP), Genre = GenreP, IDSinger = IDSingerP, Img = nameFileJpg, Mp3 = nameFileMp3, Quantity = 0 };
-
-            _dbContext.SongsBD1.Add(bd1);
-            await _dbContext.SaveChangesAsync();
-            // _dbContext.SongsBD1.AddRange(bd1);
-            // _dbContext.SaveChanges();
-
-
-
-            return RedirectToAction("CardPeople");
+            return View();
         }
+
+        [HttpGet]
+        public IActionResult AddCard1() => View();
+        [HttpPost]
+        public async Task<IActionResult> AddCard1(IFormFile fileImg, IFormFile fileMp3, BD1 model)
+        {
+            if (ModelState.IsValid)
+            {
+                string nameFileJpg = GeneratorGuid(".jpg");
+                AddFile(fileImg, "img", nameFileJpg);
+                string nameFileMp3 = GeneratorGuid(".mp3");
+                AddFile(fileMp3, "mp3", nameFileMp3);
+                int idCard = Environment.TickCount;
+
+
+                BD1 bd1 = new BD1
+                {
+                    ID = idCard,
+                    Name = model.Name,
+                    Language = model.Language,
+                    Year = model.Year,
+                    Genre = model.Genre,
+                    IDSinger = model.IDSinger,
+                    Img = nameFileJpg,
+                    Mp3 = nameFileMp3,
+                    Quantity = 0
+                };
+
+                AppDbContext appDB = new AppDbContext(Configuration);
+                appDB.SongsBD1.Add(bd1);
+                appDB.SaveChanges();
+
+                return RedirectToAction("CardPeople");
+            }
+            return View();
+    }
+        [HttpGet]
+        public IActionResult Registration() => View();
+        [HttpPost]
+        public async Task<IActionResult> Registration(BD3 model, IFormFile fileImg)
+        {
+            if (ModelState.IsValid)
+            {
+                
+                string nameFileJpg = GeneratorGuid(".jpg");
+                AddFile(fileImg, "img", nameFileJpg);
+                int idCard = Environment.TickCount;
+
+
+                BD3 bd3 = new BD3
+                {
+                    ID = idCard,
+                    Name = model.Name,
+                    Password = model.Password,
+                    Mail = model.Mail,
+                    Img = nameFileJpg
+                };
+
+                AppDbContext appDB = new AppDbContext(Configuration);
+                appDB.UsersBD3.Add(bd3);
+                appDB.SaveChanges();
+                
+                return RedirectToAction("CardPeople");
+            }
+            return View();
+    }
 
 
     }

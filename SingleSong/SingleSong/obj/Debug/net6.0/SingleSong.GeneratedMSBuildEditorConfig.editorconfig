@@ -34,14 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/Home/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/PersonalAccount/CardPeople.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxBY2NvdW50XENhcmRQZW9wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/PersonalAccount/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxBY2NvdW50XFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nasty/Desktop/progect/asp.net core/SingleSong/SingleSong/Views/Shared/Error.cshtml]

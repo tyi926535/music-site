@@ -5,18 +5,21 @@
 
 <div id="addCard">
     <h2 style="margin-left: 6%;">Добавить певца</h2>
-    <form id="form1" asp-controller="PersonalAccount" asp-action="AddFileCard2" method="post" enctype="multipart/form-data">
-    <table>
+    <form id="form1" asp-controller="PersonalAccount" asp-action="AddCard2" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" style="margin-left: 15%;width: 70%;margin-top: 5px;font-style:italic;color:red;font-size: 1.2em;">
+        </div>
+        <table>
+        <div>
         <tr>
             <td>Имя</td>
             <td>
-                    <input asp-for="Name" name="NameP" />
+                    <input required asp-for="Name"  />
             </td>           
         </tr>
         <tr>
             <td style="width:30%;">Страна</td>
             <td>
-                    <select required form="form1" asp-for="Nationality" name="NationalityP">
+                 <select required form="form1" asp-for="Nationality" >
                     <option value="Великобритания">Великобритания</option>
                     <option value="Россия">Россия</option>
                     <option value="Канада">Канада</option>
@@ -40,8 +43,8 @@
         <tr>
             <td>Год</td>
             <td>
-                    <select id="year" form="form1" asp-for="Year" name="YearP">
-                    <option value="">1969</option>
+                    <select required id="year" form="form1" asp-for="Year" >
+                    <option value="1969">1969</option>
                     <script>
                         let y = 1969
                         while (y < 2025) {
@@ -55,7 +58,7 @@
         <tr>
             <td>Пол</td>
             <td>
-                    <select required form="form1" asp-for="Gender" name="GenderP">
+                    <select required form="form1" asp-for="Gender" >
                     <option value="Мужской">Мужской</option>
                     <option value="Женский">Женский</option>
                 </select>
@@ -65,15 +68,15 @@
             <td>Фото</td>
             <td>
                 <p>
-                  <input type="file" name="files" multiple accept="image/jpg">
+                    <input required type="file" name="files" accept=".jpg">
                 </p>
             </td>
-        </tr>
+            </tr>
+        </div>
         <tr>
             <td>
-               <input type="submit" value="Сохранить" style="margin-left: 50%;margin-top: 20px;float: left;width: 150px; height: 35px;border-radius: 60px;background: #ffffff;color: #000000;" />
-                
-            </td>
+                <input type="submit" value="Сохранить" style="margin-left: 50%;margin-top: 20px;float: left;width: 150px; height: 35px;border-radius: 60px;background: #ffffff;color: #000000;" />
+                 </td>
             <td></td>
         </tr>
         </table>
